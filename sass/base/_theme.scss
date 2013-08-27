@@ -17,7 +17,7 @@ $type-border: $darker-brown !default;
 
 /* General rules */
 body {
-  background-color: $body-bg;
+  background: $noise-bg $body-bg;
 }
 
 h1 {
@@ -66,11 +66,11 @@ aside#logo div a {
 
 /* Menu */
 ul#menu a {
-  color: #999;
+  color: $lightest-brown;
 }
 
 #octopress_linkback {
-  background-color: $lightest-brown;
+  background: $noise-bg $lightest-brown;
 }
 /* Article rules */
 article a:link, article a:visited, article a:hover, article a:active {
@@ -93,7 +93,7 @@ article h2 {
 article h2 a:link, article h2 a:hover, article h2 a:visited, article h2 a:active {
   color: $darker-brown;
   text-decoration: none;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid $darker-brown;
   font-family: "Rokkitt", serif;
   font-size: 22px;
   line-height: 32px;

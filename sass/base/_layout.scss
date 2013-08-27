@@ -130,7 +130,7 @@ header#sidebar h1#title a {
   border: none;
   padding: 0;
   display: block;
-  color: $darker-brown;
+  color: $lighter-brown;
   margin-left: 0;
 }
 
@@ -286,12 +286,13 @@ header#sidebar h2#subtitle {
 
 // Articles
 article.post {
+  background-color: $light-brown;
   width: auto;
   position: relative;
   padding-left: 50px;
   padding-top: 40px;
   padding-bottom: 40px;
-  border-top: 1px solid $lightest-brown;
+  border-top: 1px solid $dark-brown;
   min-height: 130px;
 }
 
@@ -319,8 +320,9 @@ h2.entry-title a.anchor {
 
 // Navigation
 nav#pagination {
+  background-color: $light-brown;
   padding: 40px;
-  border-top: 1px solid #E2E2E2;
+  border-top: 1px solid $light-brown;
   padding-bottom: 100px;
 }
 
