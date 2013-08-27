@@ -1,13 +1,19 @@
-$body-bg: white;
+$dark-brown: #362819;
+$darker-brown: #261809;
+$light-brown: #DFAE74;
+$lighter-brown: #EECFA1;
+$lightest-brown: #FFFFF0;
+
+$body-bg: $dark-brown;
 $noise-bg: image-url('noise.png') top left !default;
 
 // Main Link Colors
-$link-color: lighten(black, 3) !default;
+$link-color: lighten($darker-brown, 3) !default;
 
 // Main Section Colors
 $text-color: #222 !default;
-$text-color-light: #aaa !default;
-$type-border: #ddd !default;
+$text-color-light: $dark-brown !default;
+$type-border: $darker-brown !default;
 
 /* General rules */
 body {
@@ -43,18 +49,18 @@ ul {
 
 // Logo
 aside#logo {
-  background-color: red;
+  background-color: $light-brown;
 }
 
 aside#logo div {
-  background-color: white;
+  background-color: $lightest-brown;
 }
 
 aside#logo div a {
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  background: red url(/images/star_large.png) center center no-repeat;
+  background: $light-brown url(/images/star_large.png) center center no-repeat;
   background-size: 100% 100%;
 }
 
@@ -64,18 +70,18 @@ ul#menu a {
 }
 
 #octopress_linkback {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: $lightest-brown;
 }
 /* Article rules */
 article a:link, article a:visited, article a:hover, article a:active {
   text-decoration: none;
-  border-bottom: 1px solid #CCC;
-  border-bottom: 1px solid #CCC;
-  color: #002e03;
+  border-bottom: 1px solid $darker-brown;
+  border-bottom: 1px solid $darker-brown;
+  color: $dark-brown;
 }
 
 article h2 {
-  color: black;
+  color: $darker-brown;
   text-decoration: none;
   font-family: "Rokkitt", serif;
   font-size: 22px;
@@ -85,7 +91,7 @@ article h2 {
 }
 
 article h2 a:link, article h2 a:hover, article h2 a:visited, article h2 a:active {
-  color: black;
+  color: $darker-brown;
   text-decoration: none;
   border-bottom: 1px solid #CCC;
   font-family: "Rokkitt", serif;

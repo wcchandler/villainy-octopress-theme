@@ -114,7 +114,7 @@ header#sidebar h1#title {
 }
 
 #main {
-  border-left: 1px solid #e3e3e3;
+  border-left: 1px solid $darker-brown;
   margin-left: 27%;
   min-height: 900px;
   min-width: 658px;
@@ -130,7 +130,7 @@ header#sidebar h1#title a {
   border: none;
   padding: 0;
   display: block;
-  color: black;
+  color: $darker-brown;
   margin-left: 0;
 }
 
@@ -291,7 +291,7 @@ article.post {
   padding-left: 50px;
   padding-top: 40px;
   padding-bottom: 40px;
-  border-top: 1px solid #E2E2E2;
+  border-top: 1px solid $lightest-brown;
   min-height: 130px;
 }
 
